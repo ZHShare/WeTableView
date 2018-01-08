@@ -14,6 +14,8 @@
 		C636464E20008F7E0054CB35 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636464D20008F7E0054CB35 /* MainTableViewController.swift */; };
 		C636465020008FBC0054CB35 /* AutoHeightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636464F20008FBC0054CB35 /* AutoHeightTableViewController.swift */; };
 		C6364652200092260054CB35 /* AutoHeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6364651200092260054CB35 /* AutoHeightTableViewCell.swift */; };
+		C636465A2003005E0054CB35 /* AutoHeightSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63646592003005E0054CB35 /* AutoHeightSectionHeader.xib */; };
+		C636465C200300760054CB35 /* AutoHeightSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C636465B200300760054CB35 /* AutoHeightSectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C636464D20008F7E0054CB35 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		C636464F20008FBC0054CB35 /* AutoHeightTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHeightTableViewController.swift; sourceTree = "<group>"; };
 		C6364651200092260054CB35 /* AutoHeightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHeightTableViewCell.swift; sourceTree = "<group>"; };
+		C63646592003005E0054CB35 /* AutoHeightSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoHeightSectionHeader.xib; sourceTree = "<group>"; };
+		C636465B200300760054CB35 /* AutoHeightSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHeightSectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				C636464D20008F7E0054CB35 /* MainTableViewController.swift */,
 				C636464F20008FBC0054CB35 /* AutoHeightTableViewController.swift */,
 				C6364651200092260054CB35 /* AutoHeightTableViewCell.swift */,
+				C63646592003005E0054CB35 /* AutoHeightSectionHeader.xib */,
+				C636465B200300760054CB35 /* AutoHeightSectionHeader.swift */,
 				C636463F20008F2C0054CB35 /* Main.storyboard */,
 				C636464220008F2C0054CB35 /* Assets.xcassets */,
 				C636464420008F2C0054CB35 /* LaunchScreen.storyboard */,
@@ -129,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C636465A2003005E0054CB35 /* AutoHeightSectionHeader.xib in Resources */,
 				C636464620008F2C0054CB35 /* LaunchScreen.storyboard in Resources */,
 				C636464320008F2C0054CB35 /* Assets.xcassets in Resources */,
 				C636464120008F2C0054CB35 /* Main.storyboard in Resources */,
@@ -143,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C636465020008FBC0054CB35 /* AutoHeightTableViewController.swift in Sources */,
+				C636465C200300760054CB35 /* AutoHeightSectionHeader.swift in Sources */,
 				C6364652200092260054CB35 /* AutoHeightTableViewCell.swift in Sources */,
 				C636464E20008F7E0054CB35 /* MainTableViewController.swift in Sources */,
 				C636463C20008F2C0054CB35 /* AppDelegate.swift in Sources */,

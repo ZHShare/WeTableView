@@ -34,6 +34,9 @@ class AutoHeightTableViewController: UITableViewController
         tableView.estimatedRowHeight = tableView.rowHeight
         tableView.rowHeight = UITableViewAutomaticDimension
         
+        tableView.estimatedSectionHeaderHeight = tableView.sectionHeaderHeight
+        tableView.sectionHeaderHeight = UITableViewAutomaticDimension
+        
         models = AutoModel.models()
         tableView.reloadData()
     }
@@ -46,7 +49,7 @@ class AutoHeightTableViewController: UITableViewController
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return models.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -61,5 +64,11 @@ class AutoHeightTableViewController: UITableViewController
         return cell
     }
   
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let sectionView = AutoHeightSectionHeader.nibView()
+        sectionView.model = models[section]
+        sectionView.displayIndex.text = "第\(section)组"
+        return sectionView
+    }
 
 }
